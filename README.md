@@ -10,7 +10,7 @@
 
 ## Link
 
-Live-site URL:
+Live-site URL: https://deck-of-cards-sigma.vercel.app/
 
 ## My Process
 
