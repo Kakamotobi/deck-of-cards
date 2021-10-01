@@ -1,0 +1,81 @@
+.Deck {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Deck__display-container {
+	width: 650px;
+	height: 70px;
+	margin-bottom: 50px;
+	display: flex;
+	position: relative;
+}
+
+.Deck__btn-container {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+
+.Deck__new-deck-btn,
+.Deck__flip-card-btn {
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	transform: translate(50%, -50%);
+	background-color: rgb(0, 144, 134);
+	border: none;
+	border-bottom: 3px solid rgb(0, 99, 93);
+	border-right: 2px solid rgb(0, 99, 93);
+	border-radius: 2px;
+	z-index: 9;
+	font-family: "Tenor Sans", sans-serif;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+.Deck__new-deck-btn {
+	width: 180px;
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(149, 149, 149);
+	color: rgb(0, 144, 134);
+}
+
+.Deck__new-deck-btn:hover,
+.Deck__flip-card-btn:hover {
+	cursor: pointer;
+}
+
+.Deck__new-deck-btn:active,
+.Deck__flip-card-btn:active {
+	border-bottom: none;
+	border-right: none;
+	border-top: 3px solid rgb(0, 144, 134);
+	border-left: 3px solid rgb(0, 144, 134);
+}
+
+.Deck__new-deck-btn:active {
+	border-color: rgb(255, 255, 255);
+}
+
+.Deck__card-back-container {
+	width: 50%;
+	height: 100%;
+	position: relative;
+}
+
+/* Flipped Cards Container */
+.Deck__cards-container {
+	min-width: 650px;
+	min-height: 450px;
+	position: relative;
+	border: 10px solid rgb(112, 93, 68);
+	border-radius: 2px;
+	background-color: rgb(0, 120, 112);
+}
