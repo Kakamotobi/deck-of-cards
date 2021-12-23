@@ -12,13 +12,13 @@
 
 Live-site URL: https://deck-of-cards-sigma.vercel.app/
 
-## My Process
+## Development Process
 
 ### Built With
 
 - React
 
-## What I Learned/Applied
+## Applied Concepts
 
 - React props, states, and events.
 - React lifecycle (`componentDidMount()`)
